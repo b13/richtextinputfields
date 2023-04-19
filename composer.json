@@ -1,0 +1,16 @@
+{
+	"name": "b13/richtextinputfields",
+	"type": "typo3-cms-extension",
+	"description": "Rich text editor for input fields.",
+	"version": "1.0.0",
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "richtextinputfields"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"B13\\Richtextinputfields\\": "Classes/"
+		}
+	}
+}
