@@ -39,7 +39,7 @@ very stripped down RTE configuration, but you're free to use your own.
 ```
 
 Set a `row` value to shrink the height of the rte window to "one line". Add a
-`max` value to show a character count and enforce a maximal amoount of characters
+`max` value to show a character count and enforce a maximal amount of characters
 for the field.
 
 ## Credits
