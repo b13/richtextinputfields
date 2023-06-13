@@ -20,7 +20,7 @@ single-purpose extension to easily add this configuration to multiple instances.
 Install using composer:
 
 ```
-composer reg b13/richtextinputfields
+composer req b13/richtextinputfields
 ```
 
 ## Usage
