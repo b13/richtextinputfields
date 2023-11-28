@@ -10,4 +10,4 @@ services:
   B13\Richtextinputfields\EventListener\TcaToRteConfiguration:
     tags:
       - name: event.listener
-        event: TYPO3\CMS\RteCKEditor\Form\Element\Event\AfterPrepareConfigurationForEditorEvent
+        identifier: 'b13/richtextinputfields/tca-to-rte-configuration'

@@ -31,6 +31,7 @@ editor:
     removePlugins:
       - resize
       - autogrow
+      - softhyphen
 
 processing:
   overruleMode: nothing
