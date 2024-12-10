@@ -9,7 +9,7 @@
 		}
 	},
 	"require" : {
-		"typo3/cms-rte-ckeditor": "^11.5 || ^12.4",
+		"typo3/cms-rte-ckeditor": "^11.5 || ^12.4 || ^13.4",
 		"php": "^8.1"
 	},
 	"autoload": {
