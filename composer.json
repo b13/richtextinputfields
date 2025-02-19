@@ -2,15 +2,13 @@
 	"name": "b13/richtextinputfields",
 	"type": "typo3-cms-extension",
 	"description": "Rich text editor for input fields.",
-	"version": "1.1.1",
 	"extra": {
 		"typo3/cms": {
 			"extension-key": "richtextinputfields"
 		}
 	},
 	"require" : {
-		"typo3/cms-rte-ckeditor": "^11.5 || ^12.4 || ^13.4",
-		"php": "^8.1"
+		"typo3/cms-rte-ckeditor": "^13.4"
 	},
 	"autoload": {
 		"psr-4": {

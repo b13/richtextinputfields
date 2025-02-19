@@ -21,9 +21,6 @@ editor:
       # Filled by Event based on TCA configuration
       # maxCharCount: 255
 
-    autoParagraph: false
-    enterMode: 2 # <br> instead of <p>
-
     extraPlugins:
       - wordcount
       - specialchar
@@ -35,7 +32,6 @@ editor:
 
 processing:
   overruleMode: nothing
-  # v13: autoParagraph: false and enterMode: 2
   plainRichText: true
   allowTags:
     - sub
