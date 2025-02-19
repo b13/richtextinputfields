@@ -35,6 +35,8 @@ editor:
 
 processing:
   overruleMode: nothing
+  # v13: autoParagraph: false and enterMode: 2
+  plainRichText: true
   allowTags:
     - sub
     - sup
