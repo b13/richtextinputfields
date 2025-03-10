@@ -17,22 +17,8 @@ class TcaToRteConfiguration
     {
         $rteConfiguration = $event->getConfiguration();
         $fieldConfiguration = $event->getData()['parameterArray']['fieldConf']['config'] ?? [];
-
-        $rteConfiguration = $this->setRows($rteConfiguration, $fieldConfiguration);
         $rteConfiguration = $this->setMax($rteConfiguration, $fieldConfiguration);
-
         $event->setConfiguration($rteConfiguration);
-    }
-
-    private function setRows(array $rteConfiguration, array $fieldConfiguration): array
-    {
-        $rows = $fieldConfiguration['rows'] ?? 0;
-
-        if ($rows > 0) {
-            $rteConfiguration['height'] = ($rows * 4) . 'rem';
-        }
-
-        return $rteConfiguration;
     }
 
     private function setMax(array $rteConfiguration, array $fieldConfiguration): array

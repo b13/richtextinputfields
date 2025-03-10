@@ -9,6 +9,7 @@ editor:
     enableContextMenu: false
     forcePasteAsPlainText: true
     clipboard_defaultContentType: 'text'
+    height: 'auto'
 
     toolbar:
       - ['Subscript', 'Superscript', '-', 'SpecialChar']
